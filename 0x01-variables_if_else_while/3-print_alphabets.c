@@ -4,13 +4,24 @@
  * main - print if the number is positive, zero, or negative
  *
  * Description: using the main function
- * this program prints "Programming is positive, zero or negative"
+ * this program prints "Print alphabets lowercase and uppercase"
  * Return: 0
 */
 int main(void)
 {
-	char ch;
+	int n = 97;
+	int m = 65;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-		
+	while (n <= 122)
+	{
+		putchar(n);
+		n++;
+	}
+	while (m <= 90)
+	{
+		putchar(m);
+		m++;
+	}
+	putchar('\n');
+	return (0);
 }
