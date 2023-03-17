@@ -1,7 +1,7 @@
  #include <stdio.h>
 /***
  * main - Entry point
- * Description: "priint numbers of base 16"
+ * Description: 'priint numbers of base 16'
  * Return: Always 0
 */
 int main(void)
