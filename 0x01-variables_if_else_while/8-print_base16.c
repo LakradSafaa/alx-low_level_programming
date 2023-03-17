@@ -1,7 +1,11 @@
- #include <stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
 /***
  * main - Entry point
- * Description: 'priint numbers of base 16'
+ *
+ * Description: using the main function
+ * this program prints "0123456789abcdef"
  * Return: Always 0
 */
 int main(void)
