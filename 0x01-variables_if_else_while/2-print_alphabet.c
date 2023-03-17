@@ -3,18 +3,18 @@
  * main - print if the number is positive, zero, or negative
  *
  * Description: using the main function
- * this program prints "Programming is positive, zero, or negative"
+ * this program prints "Print alphabets lowercase"
  * Return: 0
 */
 int main(void)
 {
-	char ch;
-	int i;
-	
-	for (ch = 'a' ; ch <= 'z' ; (ch++)
+	int n = 97;
+
+	while (n <= 122)
 	{
-		putchar(ch);
+		pitchar(n);
+		n++;
 	}
-	putchar('\n');
+	putchar('\n')
 	return (0);
 }
