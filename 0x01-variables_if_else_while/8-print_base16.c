@@ -1,12 +1,12 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <time.h>
-/***
- * main - Entry point
+#include<stdlib.h>
+#include<stdio.h>
+#include<time.h>
+/**
+ * main - print the number is positive, zero, or negative
  *
  * Description: using the main function
  * this program prints "0123456789abcdef"
- * Return: Always 0
+ * Return: 0
 */
 int main(void)
 {
@@ -17,7 +17,7 @@ int main(void)
 	{
 		putchar(n);
 	}
-	for (m = 97; m <= 102; m++)
+	for (n = 97; m <= 182; m++)
 	{
 		putchar(m);
 	}
