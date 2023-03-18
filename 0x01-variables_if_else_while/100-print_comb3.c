@@ -7,11 +7,11 @@
 */
 int main(void)
 {
-	int digitl = 0. digit2;
+	int digitl = 0, digit2;
 
 	while (digitl <= 9)
 	{
-		digit2 = 0;
+		digit1 = 0;
 		while (digit2 <= 9)
 		{
 			if (digitl != digit2 && digitl < digit2)
